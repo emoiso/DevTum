@@ -1,7 +1,7 @@
 #!/bin/Rscript
 #Author: Enrico Moiso
 #email: em.metaminer@gmail.com
-#Date: 09/23/2019
+#Date: 02/29/2022
 
 #this files generate the radar plot matrix show in figs6b and relative legend
 library(viridis)
@@ -20,8 +20,8 @@ f_colore_vi=function(x){
 load('dep_files/radarchart4.rsave')
 load('dep_files/color_annotations.rsave')
 
-col_annot=read.csv('dep_file/normal_pseudobulk_meta.csv')
-data0_sc2=read.csv('dep_file/normal_pseudobulk_dc.csv')
+col_annot=read.csv('dep_file/normal_pseudobulk_meta.csv.gz')
+data0_sc2=read.csv('dep_file/normal_pseudobulk_dc.csv.gz')
 
 
 #

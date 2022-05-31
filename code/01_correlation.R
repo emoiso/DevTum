@@ -1,7 +1,7 @@
 #!/bin/Rscript
 #Author: Enrico Moiso
 #email: em.metaminer@gmail.com
-#Date: 09/23/2019
+#Date: 02/29/2022
 
 #This script does: 
 #1 take as input data.frame (df)/matrix of gene expression profile for tumor samples (a) and moca cells subset (b). (a) and (b) must be in a gene (rows) x sample (columns) format

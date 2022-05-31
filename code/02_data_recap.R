@@ -1,7 +1,7 @@
 #!/bin/Rscript
 #Author: Enrico Moiso
 #email: em.metaminer@gmail.com
-#Date: 09/23/2019
+#Date: 02/29/2022
 
 #This script does: 
 #1 take as input the results (e) produced by correlation.R stored in folder (e1)  

@@ -1,7 +1,7 @@
 #!/bin/Rscript
 #Author: Enrico Moiso
 #email: em.metaminer@gmail.com
-#Date: 09/23/2019
+#Date: 02/29/2022
 
 #this script generates the plot for fig5C-F and fis11
 #1it takes as input the likelihood matrix, produced by the DMLP
@@ -15,8 +15,8 @@ library(alluvial)
 load('dep_files/sankeyplot.rsave')
 
 #1
-res=read.delim('dep_files/data_fig5_class_res.csv',sep=',',stringsAsFactors = F)
-labs=read.delim('dep_files/data_fig5_test_lables.csv',sep=',',stringsAsFactors = F)
+res=read.delim('dep_files/data_fig5_class_res.csv.gz',sep=',',stringsAsFactors = F)
+labs=read.delim('dep_files/data_fig5_test_lables.csv.gz',sep=',',stringsAsFactors = F)
 res=res[match(rownames(res),labs$value),]
 
 #2

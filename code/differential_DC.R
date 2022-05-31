@@ -1,7 +1,7 @@
 #!/bin/Rscript
 #Author: Enrico Moiso
 #email: moiso.enrico@gmail.com
-#Date: 09/23/2019
+#Date: 02/29/2022
 
 #This script does: 
 #1 generate differential DC analysis of discordantly classified samples

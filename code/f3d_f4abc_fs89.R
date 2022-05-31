@@ -1,7 +1,7 @@
 #! bin/Rscript
 #Author: Enrico Moiso
 #email: em.metaminer@gmail.com
-#Date: 09/23/2019
+#Date: 02/29/2022
 
 #this script generates tcga DCs radarplots in fig4a-c and figs8a-b and figs9
 
@@ -23,7 +23,7 @@ load('dep_files/radarchart4.rsave')
 load('dep_files/normalize.rsave')
 campioni=read.delim('dep_files/tcga_samples.csv.gz',sep=',',stringsAsFactors = F)
 rownames(campioni)[1]='sample'
-a3_tcga_m=read.delim('dep_files/tcga_raw_dcs.csv',sep=',',stringsAsFactors = F)
+a3_tcga_m=read.delim('dep_files/tcga_raw_dcs.csv.gz',sep=',',stringsAsFactors = F)
 
 #mean centering and sd scaling
 a3_tcga_m_sc=as.data.frame(scale(a3_tcga_m))
