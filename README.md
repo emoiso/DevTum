@@ -26,9 +26,19 @@ The scripts in the code are written in **R**, **shell** and **Python** and requi
 * [data.table](https://cran.r-project.org/web/packages/data.table/index.html)
 * [Matrix](https://cran.r-project.org/web/packages/Matrix/index.html) 
 * [ggplot2](https://cran.r-project.org/web/packages/ggplot2/index.html)
+* [ggpubr](https://cran.r-project.org/web/packages/ggpubr/index.html)
+* [pheatmap](https://cran.r-project.org/web/packages/pheatmap/index.html)
 * [ggalluvial](https://cran.r-project.org/web/packages/ggalluvial/index.html)
 * [RColorBrewer](https://cran.r-project.org/web/packages/RColorBrewer/index.html)
+* [reshape2](https://cran.r-project.org/web/packages/reshape2/index.html)
 * [viridis](https://cran.r-project.org/web/packages/viridis/index.html)
+* [scales](https://cran.r-project.org/web/packages/scales/index.html)
+* [alluvial](https://cran.r-project.org/web/packages/alluvial/index.html)
+* [lsa](https://cran.r-project.org/web/packages/lsa/index.html)
+* [umap]((https://cran.r-project.org/web/packages/umap/index.html)
+* [parallel](https://stat.ethz.ch/R-manual/R-devel/library/parallel/doc/parallel.pdf)
+* [grDevices](https://www.rdocumentation.org/packages/grDevices/versions/3.6.2)
+
 
 And the following [Bioconductor](https://www.bioconductor.org/install/) package
 
@@ -52,9 +62,9 @@ shell scripts are used for fastq reads analysis, and require the following softw
 * tensorflow 1.5.0
 
 
-If you encounter any problems or have any question, please contact Enrico Moiso (moiso.enrico@gmail.com).
+If you encounter any problems or have any question, please contact Enrico Moiso (em.metaminer@gmail.com).
 
 Docker implemetantion in progress...
 
-Created and maintained by Enrico Moiso. Last update 13/08/2021.
+Created and maintained by Enrico Moiso. Last update 06/09/2022.
 
