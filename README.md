@@ -35,7 +35,7 @@ The scripts in the code are written in **R**, **shell** and **Python** and requi
 * [scales](https://cran.r-project.org/web/packages/scales/index.html)
 * [alluvial](https://cran.r-project.org/web/packages/alluvial/index.html)
 * [lsa](https://cran.r-project.org/web/packages/lsa/index.html)
-* [umap]((https://cran.r-project.org/web/packages/umap/index.html)
+* [umap](https://cran.r-project.org/web/packages/umap/index.html)
 * [parallel](https://stat.ethz.ch/R-manual/R-devel/library/parallel/doc/parallel.pdf)
 * [grDevices](https://www.rdocumentation.org/packages/grDevices/versions/3.6.2)
 
