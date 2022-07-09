@@ -6,7 +6,7 @@
 #this files generate the plot for the umap shown in figS7B
 
 
-load('dep_files/data_fis7b.rsave')
+load('dep_files/data_figs7b.rsave')
 
 pdf('figs/paper/figS7B.pdf',height = 7,width = 10)
 par(mfrow=c(1,1))
