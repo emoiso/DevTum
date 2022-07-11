@@ -100,7 +100,7 @@ RUN make ebseq
 RUN cd /docker_main
 RUN export TERM=xterm
 
-WORKDIR /
+WORKDIR /home
 
 #
 # Script launch

@@ -61,10 +61,29 @@ shell scripts are used for fastq reads analysis, and require the following softw
 * sys
 * tensorflow 1.5.0
 
+## Docker
 
-If you encounter any problems or have any question, please contact Enrico Moiso (em.metaminer@gmail.com).
+To easily reproduce the analysis and the figures of our work we dockerized the environment we used in the paper.         
+This requires you have [Docker](https://www.docker.com/) installed on your system. If you don't **don't panic**, it is super simple, just follow these instruction for [Linux](https://docs.docker.com/desktop/linux/install/), [Mac](https://docs.docker.com/desktop/mac/install/) or [Windows](https://docs.docker.com/desktop/windows/install/)
 
-Docker implemetantion in progress...
+When `Docker` is up and running you can clone this git repository with:
 
-Created and maintained by Enrico Moiso. Last update 06/09/2022.
+	git clone https://github.com/emoiso/DevTum.git
+
+After cloning the git you can assemble the image with following command:
+
+	cd DevTum
+	sudo docker build -t devtum .
+
+After the `devtum` image has been succesfully build, you can test by runing:
+
+	sudo docker run --entrypoint code/figs7b.R -v $PWD:/home devtum
+
+The previous command will generate the umap shown in figure S7
+
+
+
+If you encounter any problems, bugs or have any question, please contact Enrico Moiso (em.metaminer@gmail.com).
+
+Created and maintained by Enrico Moiso. Last update 07/11/2022.
 
