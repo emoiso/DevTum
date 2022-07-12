@@ -79,7 +79,7 @@ After the `devtum` image has been succesfully build, you can test by runing:
 
 	sudo docker run --entrypoint code/figs7b.R -v $PWD:/home devtum
 
-The previous command will generate the umap shown in figure S7
+The previous command will generate the umap shown in figure S7 and save it in `figs/paper` on your system.
 
 
 
